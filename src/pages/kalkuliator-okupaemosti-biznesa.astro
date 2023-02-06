@@ -1,14 +1,14 @@
 ---
-import { PercentForm } from "../components/PercentForm";
+import { BusinessForm } from "../components/BusinessForm";
 import AppLayout from "../layouts/AppLayout.astro";
 ---
 
 <AppLayout title="Калькулятор сложных процентов">
   <div class="container mx-auto flex flex-col px-2">
     <h1 class="text-center text-3xl max-w-lg my-8 m-auto">
-      На данном сайте вы можете легко расчитать сложный процент
+      На данном сайте вы можете легко расчитать окупаемость вашего бизнеса
     </h1>
 
-    <PercentForm client:only />
+    <BusinessForm client:only />
   </div>
 </AppLayout>

@@ -83,7 +83,7 @@ export const PercentForm = () => {
         </div>
       </div>
 
-      <div class="overflow-auto mb-8 w-full  m-auto rounded border border-gray-200 flex-grow">
+      <div class="overflow-auto mb-8 w-fit m-auto rounded border border-gray-200 flex-grow">
         <table class="w-full border-collapse bg-white text-base  text-center">
           <thead class="bg-gray-50 whitespace-nowrap">
             <tr>

@@ -1,9 +1,28 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	
-</Layout>
+  <div
+    class="container px-4 mx-auto flex items-center flex-col h-full justify-center"
+  >
+    <h1 class="text-4xl max-w-md text-center my-8 font-semibold">
+      Калькуляторы на все случаи жизни
+    </h1>
 
+    <div class="flex justify-center gap-8 flex-col items-center text-center">
+      <a
+        href="/kalkulyator-slozhnyh-procentov"
+        class="bg-violet-500 text-white rounded-lg px-8 py-4 text-xl font-semibold hover:bg-violet-700 transition-all"
+      >
+        <h2>Калькулятор сложных процентов</h2>
+      </a>
+      <a
+        href="/kalkuliator-okupaemosti-biznesa"
+        class="bg-green-500 text-white rounded-lg px-8 py-4 text-xl font-semibold hover:bg-green-700 transition-all"
+      >
+        <h2>Калькулятор окупаемости бизнеса</h2>
+      </a>
+    </div>
+  </div>
+</Layout>
